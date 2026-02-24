@@ -1,5 +1,5 @@
 -- Unit tests for koassistant_api/response_parser.lua
--- Tests response parsing for all 16 providers
+-- Tests response parsing for all 17 providers
 -- No API calls - tests with mock responses
 
 -- Setup paths (detect script location)
@@ -90,7 +90,7 @@ local ResponseParser = require("koassistant_api.response_parser")
 
 print("")
 print(string.rep("=", 50))
-print("  Unit Tests: Response Parser (16 Providers)")
+print("  Unit Tests: Response Parser (17 Providers)")
 print(string.rep("=", 50))
 
 -- Test Anthropic format
@@ -286,7 +286,7 @@ end)
 -- Test OpenAI-compatible providers
 local openai_compatible = {
     "groq", "mistral", "xai", "openrouter", "qwen",
-    "kimi", "together", "fireworks", "sambanova", "doubao"
+    "kimi", "together", "fireworks", "sambanova", "doubao", "zai"
 }
 
 TestRunner:suite("OpenAI-compatible providers")
