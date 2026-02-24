@@ -2858,7 +2858,7 @@ KOAssistant supports **17 AI providers**. Please test and give feedback -- fixes
 > - **Gemini**: gemini-3-flash-preview and free quota on other models
 > - **Ollama**: Completely free (runs locally on your hardware)
 > - **SambaNova**: Free tier for open-source models
-> - **Z.AI**: GLM-4.7-flash, GLM-4.6v-flash, GLM-4.5-flash are free
+> - **Z.AI**: GLM-4.7-flash, GLM-4.5-flash are free
 >
 > See details below.
 
@@ -2874,7 +2874,7 @@ Several providers offer free tiers for testing or budget-conscious users:
 | **Ollama** | Completely free (runs locally on your hardware) |
 | **Mistral** | Open-weight models free: `open-mistral-nemo`, `magistral-small-latest` (Apache 2.0) |
 | **OpenRouter** | Some models have free tiers; check per-model pricing |
-| **Z.AI** | GLM-4.7-flash, GLM-4.6v-flash, GLM-4.5-flash free (1 concurrent request) |
+| **Z.AI** | GLM-4.7-flash, GLM-4.5-flash free (1 concurrent request) |
 
 **Best for testing:** Groq (fastest free inference), Gemini (generous free quota), Ollama (no API key needed).
 
